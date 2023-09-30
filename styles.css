@@ -1,0 +1,48 @@
+article, aside, details, figcaption, figure, footer, header, menu, nav, section
+	{
+	display: block;
+	}
+
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure{
+    width: 45%;
+    min-width: 200px;
+    float: left;
+}
+
+@media screen and (max-width: 1000px) {
+	
+    body
+        {
+        background-color: skyblue;
+        }
+        
+    }
+
+
+@media only screen and (max-width: 480px) {
+        
+        body{
+            background-color: pink;
+        }
+    }
+
+@media only screen and ( max-width: 320px) {
+        body{
+            background-color: yellow;
+        }
+    }
